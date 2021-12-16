@@ -49,8 +49,8 @@ input{
     font-family: 'Quicksand', sans-serif;
 }
 
-/*Añade estilos a los botones*/
- .btn{
+/*Añade estilos al boton añadir*/
+ .btn-añadir{
      padding: 10px 20px;
      border-style: none;
      border-radius: 5px;
@@ -61,3 +61,48 @@ input{
      color: #f2f2f2;
 
  }
+    /*Resaltar botón añadir cuando se pasa el mouse*/
+    .btn-añadir :hover {
+        background-color: #71ad99;
+    }
+
+
+ /*Añade estilos de la lista*/
+ .ListaGrupo {
+    border: none;
+    margin: 0 auto;
+    width: 35%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+
+ ol li{
+    font-family: 'Quicksand',sans-serif;
+    color: #f2f2f2;
+    background-color: #5B8E7D;
+    text-align: left;
+    padding: 20px 0;
+ }
+
+ ol li :hover {
+    background-color: #4c7869;
+ }
+
+ /*Estilos del botón eliminar*/
+
+ .btn-eliminar {
+     float: right;
+     background-color: #f2f2f2;
+     color: #5B8E7D;
+     font-family: 'Quicksand', sans-serif;
+     border-radius: 2px;
+     border: none;
+     font-size: 15px;
+     padding: 5px;
+ }
+
+ /*Resaltar botón eliminar cuando se pasa el mouse*/
+ .btn-eliminar :hover {
+    background-color: #9e9e9e;
+ }
+
