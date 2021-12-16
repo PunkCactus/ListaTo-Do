@@ -1,0 +1,63 @@
+/*Estilos generales*/
+
+* {
+  padding: 0%;
+  margin: 0%;  
+}
+
+body {
+    margin: 0 auto;
+    width: 33,3%;
+    background-color: #f2f2f2;
+    font-family: 'Quicksand', sans-serif;
+    color: #bc4b51;
+    margin-top: 0px;
+    text-align: center;
+}
+
+/*Estilos del header*/
+header {
+    margin-top: 5%;
+    font-weight: 300;
+}
+
+header h1{
+    color: #5B8E7D;
+    font-weight: 2500;
+    font-size: 35px;
+}
+
+header h2{
+    font-size: 20px;
+    padding: 2px;
+}
+
+/*Estilos generales del main*/
+main{
+    padding: 20px;
+}
+
+/*Estilos de la caja input*/
+input{
+    margin: 0px auto;
+    padding: 5px;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Añade estilos a los botones*/
+ .btn{
+     padding: 10px 20px;
+     border-style: none;
+     border-radius: 5px;
+     background-color: #5B8E7D;
+     font-family:'Quicksand', sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     color: #f2f2f2;
+
+ }
